@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: white;
+  background-color: black;
+}
+
+#nav-header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+  /* opacity: 0.5; */
+}
+
+.fullPage{
+  top:0;
+  left: 0;
+  width: 100vw;
+  position: absolute;
+  background-color: black;
+}
+
+.home-section, .about-section, .skills-section, .contact-section, .projects-section{
+  position: relative;
+  color: white;
+}
+
+.home-section{
+  margin-top: 200px;
+}
+
+.p-text{
+  font-size: x-large;
+}
+
+.skills{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul.companies{
+  z-index: 1;
+  background-color: black;
+  font-size: x-large;
+}
+ul.companies li{
+  margin: 0.5em;
+}
+ul.companies li a{
+  color: white;
+}
+ul.companies li a:hover{
+  color: aquamarine;
+}
+
+
+.image-container {
+  width: 30%; /* Make image container fill the entire width of the parent div */
+  height: 30%; /* Make image container fill the entire height of the parent div */
+  overflow: hidden; /* Hide any overflow to ensure image does not exceed container */
+}
+
+.image {
+  max-width: 100%; /* Ensure image does not exceed the width of its container */
+  max-height: 100%; /* Ensure image does not exceed the height of its container */
+  display: block; /* Ensure the image is displayed as a block element */
+  margin: auto; /* Center the image horizontally within its container */
+}
+
+footer{
+  text-align: center;
+}
