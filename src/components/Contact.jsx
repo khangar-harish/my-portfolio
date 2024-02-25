@@ -42,9 +42,10 @@ function Earth(props) {
 export default function Contact() {
   return (
     <section id='contact' className='contact-section'>
+        <div className='fluid-container space'></div>
         <div className="container my-5">
             <div className="row">
-                <div className="col-sm-6" style={{ height: '60vh' }}>
+                <div className="col-sm-6 mt-2" style={{ height: '60vh' }}>
                     <Canvas>
                         <perspectiveCamera />
                         <OrbitControls enableZoom={false}/>
@@ -53,7 +54,7 @@ export default function Contact() {
                         <Earth/>
                     </Canvas>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-6 mt-6">
                     <div className="mb-3">
                         <label htmlFor="name" className="form-label">Name</label>
                         <input type="text" className="form-control" id="name" placeholder="Enter your name"/>

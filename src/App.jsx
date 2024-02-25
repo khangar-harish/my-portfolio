@@ -16,6 +16,7 @@ function App() {
             <Home/>
             <About/>
             <Skills/> 
+            <Projects/>
             <Contact/>
             <footer className='mt-5' style={{ height: '20vh' }} >All Rights are Reserved</footer>
       </div>

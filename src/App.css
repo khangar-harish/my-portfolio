@@ -32,6 +32,22 @@ body{
 
 .home-section{
   margin-top: 200px;
+  .box{
+    width: 25vw;
+    height: 15vh;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+}
+
+.about-section{
+  margin-top: 200px;
+  .box{
+    width: 25vw;
+    height: 15vh;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
 }
 
 .p-text{
@@ -70,6 +86,26 @@ ul.companies li a:hover{
   max-height: 100%; /* Ensure image does not exceed the height of its container */
   display: block; /* Ensure the image is displayed as a block element */
   margin: auto; /* Center the image horizontally within its container */
+}
+
+.box {
+  width: 55vw;
+  height: 35vh;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.pr-box {
+  width: 40vw;
+  height: 30vh;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.space{
+  width: 55vw;
+  height: 15vh;
+  padding: 20px;
 }
 
 footer{

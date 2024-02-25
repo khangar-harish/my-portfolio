@@ -6,15 +6,16 @@ import ProfileScene from './ProfileScene';
 export default function About() {
   return (
     <section id='about' className='about-section'>
+        <div className='fluid-container space'></div>
         <div className="container my-5" >
-            <div className="row flex-wrap align-content-center">
-                <div className="col-sm-6 mt-4" style={{ height: '60vh' }}>
+            <div className="row flex-wrap justify-content-around">
+                <div className="box col-sm-6 mt-2" style={{ height: '60vh' }}>
                     <Canvas camera={{position:[0, 0, 2], fov:60, aspect:1, near:1, far:10}}>
                         <ProfileScene/>
                     </Canvas>
                 </div>
-                <div className="col-sm-6 mt-4">
-                    <p className='p-text mt-5'>Hello, I am Harish Khangar.</p>
+                <div className="col-sm-6 mt-6">
+                    <p className='p-text'>Hello, I am Harish Khangar.</p>
 
                     <p className='p-text'>Creating dynamic and compelling websites is my passion. Having expertise in both front-end and back-end development, I aim to provide high-quality and user-friendly experiences.
                     From designing visually appealing user interfaces with HTML, CSS, and JavaScript to deploying robust server-side functionality with technologies such as Java, Node.js, and Express, I strive to build seamless and effective web applications.</p>
